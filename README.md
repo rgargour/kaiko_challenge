@@ -17,11 +17,12 @@ Response rules are as follows:
 * response time must be under 100ms
 * protobuf definition must not be modified (except for language-related changes such as options)
 * client code written in go must not be modified and must be compatible with your implementation
-* your implementation must be documented
-* your implementation must be ready to be packaged in a docker image (Dockerfile must be implemented)
-* your implementation must be integration-tested
+* instructions on how to run your server locally must be provided
 
 # Soft Constraints
 
+* your implementation must be documented
+* your implementation must be ready to be packaged in a docker image (Dockerfile must be implemented)
+* your implementation must be integration-tested
 * you should implement a build tool (Gradle, Rake, Make, etc.) to ease the build and testing of your implementation
 * your commit history should be clean and reflect atomic changes, you are allowed to rewrite history
